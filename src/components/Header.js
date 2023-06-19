@@ -6,10 +6,10 @@ const Header = () => {
       <div className='flex justify-between items-center'>
         {/* logo */}
         <a href='#'>
-          <img src={Logo} alt="logo" width={200} height={200} />
+          <img src={Logo} alt="logo" width={100} height={100} />
         </a>
         {/* button */}
-        <button className='btn btn-sm'> Contact Me </button>
+        <button className='btn btn-sm2'> Contact Me </button>
 
       </div>
     </div>
