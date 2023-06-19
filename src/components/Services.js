@@ -57,60 +57,6 @@ const Services = () => {
     </Swiper>
     </section>
   )
-}
-
-export default Services;
-
-{/* import React, { Component } from "react";
-import Slider from "react-slick";
-
-const Services = () => {
-  const styles = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    fontSize: 70
-  };
-
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 500
-  };
-
-  return (
-    <div>
-    <div>
-    <h2 style={styles} className='font-bold leading-[1] lg:text-[100px]'>
-      MY BLOGS
-    </h2>
-      <Slider settings = {settings}>
-        <div>
-          <h2>1</h2>
-        </div>
-        <div>
-          <h2>2</h2>
-        </div>
-        <div>
-          <h2>3</h2>
-        </div>
-        <div>
-          <h2>4</h2>
-        </div>
-        <div>
-          <h2>5</h2>
-        </div>
-        <div>
-          <h2>6</h2>
-        </div>
-      </Slider>
-    </div>
-    </div>
-  );
 };
 
-export default Services; */}
+export default Services;
