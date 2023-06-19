@@ -56,7 +56,7 @@ const Services = () => {
 
     </Swiper>
     </section>
-  )
-};
+  );
+}
 
 export default Services;
