@@ -20,17 +20,23 @@ const Services = () => {
   return (
 <section>
   <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-  <h4 style={styles} className='font-bold btn2 btn2-sm3' >
-      MY BLOGS
+  <h4 style={styles} className='font-bold btn2 btn2-sm3 ' >
+      MY BLOGS <br />
     </h4>
-  </div>
+    </div>
+    <div>
+      <h1>
+        <br />
+      </h1>
+    </div>
+  
       <Swiper className= "Testimonial_container"
       spaceBetween={50}
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       >
-     <SwiperSlide className= "single_testimonial">
+     <SwiperSlide className= "single_testimonial ">
         <a href='https://medium.com/@rakshapahariya/my-experience-of-the-product-led-growth-cohort-2023-by-the-product-folks-b3898e8cfa6f' target="_blank" rel="noreferrer" className='btn btn-sm2'>
           <h1 > 
           My experience of the “Product Led Growth” Cohort 2023 by “The Product Folks”
@@ -58,59 +64,4 @@ const Services = () => {
     </section>
   )
 }
-
 export default Services;
-
-{/* import React, { Component } from "react";
-import Slider from "react-slick";
-
-const Services = () => {
-  const styles = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    fontSize: 70
-  };
-
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 500
-  };
-
-  return (
-    <div>
-    <div>
-    <h2 style={styles} className='font-bold leading-[1] lg:text-[100px]'>
-      MY BLOGS
-    </h2>
-      <Slider settings = {settings}>
-        <div>
-          <h2>1</h2>
-        </div>
-        <div>
-          <h2>2</h2>
-        </div>
-        <div>
-          <h2>3</h2>
-        </div>
-        <div>
-          <h2>4</h2>
-        </div>
-        <div>
-          <h2>5</h2>
-        </div>
-        <div>
-          <h2>6</h2>
-        </div>
-      </Slider>
-    </div>
-    </div>
-  );
-};
-
-export default Services; */}

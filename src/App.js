@@ -14,11 +14,12 @@ import Timel from './components/Timel'
 function App() {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-show'>
-     {/* <Header /> */}
+     <Header />
       <Banner />
+      <About />
       <Nav />
       <Services />
-      <About />
+      
       
       {/* <Work /> */}
 
