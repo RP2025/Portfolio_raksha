@@ -103,4 +103,9 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+
+  .side-by-side {
+    display: flex;
+    flex-direction: row;
+  }
 }

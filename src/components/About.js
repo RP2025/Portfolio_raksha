@@ -2,6 +2,7 @@ import React from 'react';
 import Skill1 from './Skills1';
 const About = () => {
 
+  
   const styles = {
     display: 'flex',
     alignItems: 'center',
@@ -26,14 +27,14 @@ const About = () => {
 
   };
   return (
-    <section >
+    <section id = 'about'>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
     <h4 style={styles} className='font-bold text-gradient' >
         About Me
       </h4>
       </div>
       <div className='container mx-auto '  >
-      <div className='flex max-w-max gap-x-6 items-center mb-10 '>
+      <div className='side-by-side flex gap-x-6 items-center mb-10 '>
       <div>
         <h2 style={styles3} className='font-secondary font-bold' >
           Profile

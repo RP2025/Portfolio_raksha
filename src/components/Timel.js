@@ -3,92 +3,52 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 import {FaGithub} from 'react-icons/fa'
+import {IoBookSharp} from 'react-icons/io5'
 
 const Timel = () => {
-return <section id = 'home' className='min-h-[85vh] lg:min-h-[78vh] flex items-center'>
+
+  const styles = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '10vh',
+    fontSize: 50
+  };
+
+return <section >
+ <section> 
+  <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+  <h4 style={styles} className='font-bold btn2 btn2-sm3 ' >
+      ACHIEVEMENTS<br />
+    </h4> 
+    </div>
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="April 2023 - Ongoing"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGithub />}
+    icon={<IoBookSharp/>}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">  Stanford University</h3>
+    <h4 className="vertical-timeline-element-subtitle">Code In Place</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
+    Student</p>
   </VerticalTimelineElement>
+  
+  
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
+  contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<FaGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<FaGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
+    contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
+    date="March 2022 - Ongoing"
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<FaGithub/>}
   >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <h3 className="vertical-timeline-element-title">Women Engineering Fellow</h3>
+    <h4 className="vertical-timeline-element-subtitle">WE Cohort 2022 </h4>
+    <h4 className="vertical-timeline-element-subtitle">Google and Talentsprint </h4>
     <p>
       Creative Direction, Visual Design
     </p>
@@ -98,6 +58,7 @@ return <section id = 'home' className='min-h-[85vh] lg:min-h-[78vh] flex items-c
     icon={<FaGithub />}
   />
 </VerticalTimeline>
+</section>
 </section>
 
 };

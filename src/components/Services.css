@@ -2,6 +2,30 @@
 width: 70%;
 }
 
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-container-element { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  border: 1px solid black; 
+  width: 50%; 
+} 
+.grid-child-element { 
+  margin: 10px; 
+  border: 1px solid red; 
+}
+
+.box {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
 .single_testimonialf{
     /*background: rgb(10, 31, 51); */
     background: linear-gradient(
