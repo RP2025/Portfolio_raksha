@@ -10,7 +10,8 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Timel from './components/Timel'
-
+import Achievments from './components/EXPERIMENTING/Achievments';
+import POSpage from './components/EXPERIMENTING/POSpage'
 function App() {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-show'>
@@ -19,12 +20,12 @@ function App() {
       <About />
       <Nav />
       <Services />
-      
-      
+      <Achievments />  
+      <POSpage />    
       {/* <Work /> */}
 
       {/* <Contact /> */}
-      <Timel />
+      {/* <Timel /> */}
       <div className='h-[4000px]'></div>
     </div>
   );

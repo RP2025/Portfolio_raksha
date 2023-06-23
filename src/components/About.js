@@ -28,33 +28,26 @@ const About = () => {
   };
   return (
     <section id = 'about'>
+      
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
     <h4 style={styles} className='font-bold text-gradient' >
         About Me
+
       </h4>
       </div>
       <div className='container mx-auto '  >
-      <div className='side-by-side flex gap-x-6 items-center mb-10 '>
+      <div className='flex gap-x-6 items-center mb-10 '>
       <div>
-        <h2 style={styles3} className='font-secondary font-bold' >
-          Profile
-        </h2>
-        <h2>
+  
+      <h1>
+        <br />
+      </h1>
+        <h2 >
+
         The mesmerizing world of theoretical computer science, mind-bending puzzles, and cutting-edge accessibility and human-computer interaction has me hooked! It's all about pushing limits, unleashing mind-blowing potential, and weaving a tech-infused tapestry that bridges the gap between humans and machines. 
         </h2>
       </div>
-      <div>
-        <h2 style={styles3} className='font-secondary font-bold '  >
-          Skills 
-        </h2>
-        <h2 >
-          {/* <Skill1 /> */}
-          <text>PYTHON :: EXPERT
-            <br/>C++ :: EXPERT
-            <br/>C :: ADVANCE        
-          </text>
-      </h2>
-      </div>
+      
       </div>
       </div>
     
