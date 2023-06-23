@@ -16,7 +16,7 @@ const Banner = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.7}}
-           className='text-[60px] font-bold leading-[1] lg:text-[100px]' >
+           className='text-[55px] font-bold leading-[1] lg:text-[100px]' >
             RAKSHA  <span>PAHARIYA</span>
           </motion.h1>
           <motion.div 
