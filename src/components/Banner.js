@@ -48,7 +48,7 @@ const Banner = () => {
             viewport={{once: false, amount: 0.7}}
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto'
             >
-
+                
             I am currently a Pre Final Year Undergraduate pursuing my B.tech degree in Computer Science and Engineering from the Indian Institute of Engineering Science and Technology, Shibpur.
             I am a passionate to dive deep in tech world. You'll often find me immersed in the melodies of old hits during my free time.
 
@@ -60,7 +60,7 @@ const Banner = () => {
             viewport={{once: false, amount: 0.7}}
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <button>
-                <a href='#' className='flex text-[20px] text-gradient btn-link'>
+               <a href='#' className='flex text-[20px] text-gradient btn-link'>
                   Resume
                 </a>
                 {/*social*/}
