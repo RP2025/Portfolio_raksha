@@ -14,7 +14,7 @@ const ListExampleHeader = () => (
     <List.Item>
         <List.Header className='flex items center font-bold'> -> Entrepreneur Development Cell , IIEST</List.Header>
        Core Member of Entrepreneur Development Cell , IIEST 
-    
+    </List.Item>
   </List>
 )
 
