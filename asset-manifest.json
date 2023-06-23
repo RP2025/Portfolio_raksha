@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_raksha/static/css/main.af62f969.css",
-    "main.js": "/Portfolio_raksha/static/js/main.457ab88c.js",
+    "main.css": "/Portfolio_raksha/static/css/main.552050ff.css",
+    "main.js": "/Portfolio_raksha/static/js/main.29dd920b.js",
     "static/media/site-bg.jpg": "/Portfolio_raksha/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/avatar.png": "/Portfolio_raksha/static/media/avatar.0f29aa8607da82a77a8b.png",
     "static/media/logo.png": "/Portfolio_raksha/static/media/logo.6a472c626305f8ce5f95.png",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/Portfolio_raksha/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio_raksha/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio_raksha/index.html",
-    "main.af62f969.css.map": "/Portfolio_raksha/static/css/main.af62f969.css.map",
-    "main.457ab88c.js.map": "/Portfolio_raksha/static/js/main.457ab88c.js.map"
+    "main.552050ff.css.map": "/Portfolio_raksha/static/css/main.552050ff.css.map",
+    "main.29dd920b.js.map": "/Portfolio_raksha/static/js/main.29dd920b.js.map"
   },
   "entrypoints": [
-    "static/css/main.af62f969.css",
-    "static/js/main.457ab88c.js"
+    "static/css/main.552050ff.css",
+    "static/js/main.29dd920b.js"
   ]
 }
