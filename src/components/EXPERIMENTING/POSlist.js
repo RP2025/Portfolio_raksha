@@ -8,13 +8,12 @@ const ListExampleHeader = () => (
        Core Member of official Coding Club of IIEST Shibpur 
     </List.Item>
     <List.Item>
-        <List.Header className='flex items center font-bold'> -> Member at CodeIIEST</List.Header>
+        <List.Header className='flex items center font-bold'> -> Member at GDSC IIEST</List.Header>
        Core Member of GDSC IIEST Shibpur
     </List.Item>
     <List.Item>
         <List.Header className='flex items center font-bold'> -> Entrepreneur Development Cell , IIEST</List.Header>
-       Core Member of Entrepreneur Development Cell , IIEST <br /> EDC IIEST works under Indian Innovation Council
-    </List.Item>
+       Core Member of Entrepreneur Development Cell , IIEST 
     
   </List>
 )

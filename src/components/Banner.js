@@ -31,7 +31,7 @@ const Banner = () => {
               2000, 
               'Coder', 
               2000 ,
-              'ML enthusiastic', 
+              'ML enthusiast', 
               2000 ,
               'Philomath' , 
               2000]
@@ -62,6 +62,7 @@ const Banner = () => {
               <button>
                <a href='#' className='flex text-[20px] text-gradient btn-link'>
                   Resume
+                  <br />
                 </a>
                 {/*social*/}
                 <div className='flex text-[20px] gap-x-8 max-w-max mx-auto lg:max-0'>
