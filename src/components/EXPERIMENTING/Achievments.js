@@ -14,7 +14,7 @@ const Achievments = () => {
         <section> 
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <h4 style={styles} className='font-bold btn2 btn2-sm3 ' >
-                    Achievments and Awards<br />
+                    Achievements and Awards<br />
                 </h4> 
             </div>
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
