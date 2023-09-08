@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio_raksha/static/css/main.552050ff.css",
-    "main.js": "/Portfolio_raksha/static/js/main.ad3e2a9a.js",
-    "static/media/site-bg.jpg": "/Portfolio_raksha/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "main.css": "/Portfolio_raksha/static/css/main.26be9a54.css",
+    "main.js": "/Portfolio_raksha/static/js/main.73155367.js",
     "static/media/avatar.png": "/Portfolio_raksha/static/media/avatar.0f29aa8607da82a77a8b.png",
+    "static/media/site-bg3.jpg": "/Portfolio_raksha/static/media/site-bg3.6e2bacaee3b9ba3c8861.jpg",
     "static/media/logo.png": "/Portfolio_raksha/static/media/logo.6a472c626305f8ce5f95.png",
     "static/media/slick.svg": "/Portfolio_raksha/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio_raksha/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Portfolio_raksha/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio_raksha/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio_raksha/index.html",
-    "main.552050ff.css.map": "/Portfolio_raksha/static/css/main.552050ff.css.map",
-    "main.ad3e2a9a.js.map": "/Portfolio_raksha/static/js/main.ad3e2a9a.js.map"
+    "main.26be9a54.css.map": "/Portfolio_raksha/static/css/main.26be9a54.css.map",
+    "main.73155367.js.map": "/Portfolio_raksha/static/js/main.73155367.js.map"
   },
   "entrypoints": [
-    "static/css/main.552050ff.css",
-    "static/js/main.ad3e2a9a.js"
+    "static/css/main.26be9a54.css",
+    "static/js/main.73155367.js"
   ]
 }
